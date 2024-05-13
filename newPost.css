@@ -1,0 +1,16 @@
+form {
+    margin: 50px;
+    border: 1.5px black solid;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+form textarea {
+    height: 260px;
+}
+
+form .btn {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1.5px hsl(152, 69%, 20%) solid;
+}

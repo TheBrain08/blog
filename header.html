@@ -1,0 +1,33 @@
+<header>
+    <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <img src="images/Placeholder.png" id="logo" alt="logo" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="./index.php">Home</a>
+                    <a class="nav-link" href="./allPosts.php">All posts</a>
+                    <?php
+                        if(isset($_SESSION["username"])){
+                            if(getRank($_SESSION['username']) > 0) {
+                                echo '<a class="nav-link" href="newPost.php">Add Post</a>';
+                                echo '<a class="nav-link" href="./administer.php">Administer</a>';
+                            }
+                        }
+                    ?>
+                    <?php
+                        if(isset($_SESSION["username"])){
+                            echo '<a class="nav-link" href="./logout.php">Logout</a>';
+                        } else {
+                            echo '<a class="nav-link" href="./login.html">Login</a>';
+                        }
+                    ?>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>

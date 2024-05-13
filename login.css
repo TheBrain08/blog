@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(80, 80, 80);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+body a {
+    color: white;
+}
+
+form {
+    width: 350px;
+    display: flex;
+    border: 2px black solid;
+    border-radius: 25px;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(50, 50, 50);
+    height: auto;
+    margin-left: 50px;
+    margin-top: 10%;
+}
+
+form:first-child {
+    margin-left: 0px;
+}
+
+form label {
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+form button {
+    background-color: hsl(240, 100%, 70%);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    padding: 10px 16px;
+    border-radius: 20px;
+    border-color: hsl(240, 100%, 60%);
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: hsl(240, 100%, 80%);
+}
