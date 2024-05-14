@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3f092-936b-4413-9bb1-ad7a1f33a995" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/allPosts.php" beforeDir="false" afterPath="$PROJECT_DIR$/allPosts.php" afterDir="false" />
-    </list>
+    <list default="true" id="44a3f092-936b-4413-9bb1-ad7a1f33a995" name="Changes" comment="test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +40,7 @@
   "keyToString": {
     "JavaScript Debug.login.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging master",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/Timo-PC/Documents/Server/htdocs/blog",
     "node.js.detected.package.eslint": "true",
@@ -96,9 +94,22 @@
       <workItem from="1715695457194" duration="2865000" />
       <workItem from="1715698389507" duration="192000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <option name="closed" value="true" />
+      <created>1715698764452</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715698764453</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
