@@ -50,7 +50,7 @@ include "./header.html";
                 echo "<img class='float-end rounded-4 img-fluid' src='images/{$id}.png'>";
             }
             echo "<p class='content'>" . nl2br($content) . "</p>";
-            echo "<p class='timestamp align-self-end'> Created by {$username} at {$created}. </p>";
+            echo "<p class='timestamp align-self-end'> Created by {$username} at {$created}.. </p>";
             echo "</div>";
 
         }
