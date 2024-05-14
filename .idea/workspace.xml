@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a3f092-936b-4413-9bb1-ad7a1f33a995" name="Changes" comment="" />
+    <list default="true" id="44a3f092-936b-4413-9bb1-ad7a1f33a995" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +18,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "TheBrain08"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/TheBrain08/blog",
+    "accountId": "7a69f3ce-4fb5-4233-ac67-908b3ce845a9"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -28,6 +42,7 @@
   "keyToString": {
     "JavaScript Debug.login.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/Timo-PC/Documents/Server/htdocs/blog",
     "node.js.detected.package.eslint": "true",
@@ -79,6 +94,7 @@
       <workItem from="1715632084801" duration="30000" />
       <workItem from="1715632126994" duration="1538000" />
       <workItem from="1715695457194" duration="2865000" />
+      <workItem from="1715698389507" duration="192000" />
     </task>
     <servers />
   </component>
