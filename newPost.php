@@ -49,12 +49,12 @@ if(isset($_POST["submit"])) {
         if(in_array($fileActualExt, $allowed)) {
             if($fileError === 0) {
                 if($fileSize < 1000000) {
-                    $stmtPost = $mysql->prepare("SELECT * FROM posts ORDER BY id DESC LIMIT 1 ");
-                    $stmtPost->execute();
-                    $row = $stmtPost->fetch();
-                    $id = $row["id"];
+                    $stmtNextID = $mysql->prepare("SELECT AUTO_INCREMENT FROM information_schema.tables WHERE table_name = 'posts' AND table_schema = DATABASE();");
+                    $stmtNextID->execute();
+                    $rowNextID = $stmtNextID->fetch();
+                    $nextID = $rowNextID["AUTO_INCREMENT"];
 
-                    $fileNameNew = $id+1 . "." . $fileActualExt;
+                    $fileNameNew = $nextID . "." . $fileActualExt;
                     $fileDestination = './images/' . $fileNameNew;
                     move_uploaded_file($fileTmpName, $fileDestination);
 
@@ -74,6 +74,8 @@ if(isset($_POST["submit"])) {
         }
     }
 }
+?>
+
 
 
 ?>
